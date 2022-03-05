@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "0gNfXEm6IBzADydfs4OV5C9op2RBGTrzWO23H25RshhSaXrqjxCoDDOBTsfv2KG21RMe5KIsRcM/V7KVizRuww==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Emre\\source\\repos\\MuhammetAliKOC\\Homework01-Form\\Homework01-Form.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Emre\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\Emre\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.12\\microsoft.netcore.app.host.win-x64.5.0.12.nupkg.sha512"
+  ],
+  "logs": []
+}
