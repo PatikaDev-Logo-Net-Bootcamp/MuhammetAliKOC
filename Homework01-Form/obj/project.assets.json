@@ -55,11 +55,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Emre\\source\\repos\\MuhammetAliKOC\\Homework01-Form\\Homework01-Form.csproj",
+      "projectUniqueName": "C:\\Users\\Emre\\Desktop\\patikacalisma\\Homework01-Form\\Homework01-Form.csproj",
       "projectName": "Homework01-Form",
-      "projectPath": "C:\\Users\\Emre\\source\\repos\\MuhammetAliKOC\\Homework01-Form\\Homework01-Form.csproj",
+      "projectPath": "C:\\Users\\Emre\\Desktop\\patikacalisma\\Homework01-Form\\Homework01-Form.csproj",
       "packagesPath": "C:\\Users\\Emre\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Emre\\source\\repos\\MuhammetAliKOC\\Homework01-Form\\obj\\",
+      "outputPath": "C:\\Users\\Emre\\Desktop\\patikacalisma\\Homework01-Form\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\DevExpress 21.1\\Components\\Offline Packages",
