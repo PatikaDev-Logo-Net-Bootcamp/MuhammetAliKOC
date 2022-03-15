@@ -1,4 +1,4 @@
-using Homework02_Middlewares_Swaggers.Helpers;
+using Homework02_Middlewares_Swaggers.Filters;
 using Homework02_Middlewares_Swaggers.Middlewares;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;

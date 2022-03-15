@@ -7,7 +7,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Homework02_Middlewares_Swaggers.Helpers
+namespace Homework02_Middlewares_Swaggers.Filters
 {
     public class SwaggerOperationFilter : IOperationFilter
     {
