@@ -1,0 +1,8 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <RootNamespace>HomeWork04_First.App.Domain</RootNamespace>
+  </PropertyGroup>
+
+</Project>

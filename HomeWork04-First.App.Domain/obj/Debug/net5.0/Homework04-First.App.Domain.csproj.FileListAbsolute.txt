@@ -1,0 +1,12 @@
+C:\Users\Emre\Desktop\patikacalisma\HomeWork04-First.App.Domain\bin\Debug\net5.0\Homework04-First.App.Domain.deps.json
+C:\Users\Emre\Desktop\patikacalisma\HomeWork04-First.App.Domain\bin\Debug\net5.0\Homework04-First.App.Domain.dll
+C:\Users\Emre\Desktop\patikacalisma\HomeWork04-First.App.Domain\bin\Debug\net5.0\ref\Homework04-First.App.Domain.dll
+C:\Users\Emre\Desktop\patikacalisma\HomeWork04-First.App.Domain\bin\Debug\net5.0\Homework04-First.App.Domain.pdb
+C:\Users\Emre\Desktop\patikacalisma\HomeWork04-First.App.Domain\obj\Debug\net5.0\Homework04-First.App.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Emre\Desktop\patikacalisma\HomeWork04-First.App.Domain\obj\Debug\net5.0\Homework04-First.App.Domain.AssemblyInfoInputs.cache
+C:\Users\Emre\Desktop\patikacalisma\HomeWork04-First.App.Domain\obj\Debug\net5.0\Homework04-First.App.Domain.AssemblyInfo.cs
+C:\Users\Emre\Desktop\patikacalisma\HomeWork04-First.App.Domain\obj\Debug\net5.0\Homework04-First.App.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Emre\Desktop\patikacalisma\HomeWork04-First.App.Domain\obj\Debug\net5.0\Homework04-First.App.Domain.dll
+C:\Users\Emre\Desktop\patikacalisma\HomeWork04-First.App.Domain\obj\Debug\net5.0\ref\Homework04-First.App.Domain.dll
+C:\Users\Emre\Desktop\patikacalisma\HomeWork04-First.App.Domain\obj\Debug\net5.0\Homework04-First.App.Domain.pdb
+C:\Users\Emre\Desktop\patikacalisma\HomeWork04-First.App.Domain\obj\Debug\net5.0\Homework04-First.App.Domain.csproj.AssemblyReference.cache

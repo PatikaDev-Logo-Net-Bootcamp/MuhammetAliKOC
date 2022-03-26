@@ -49,7 +49,6 @@ C:\Users\Emre\Desktop\patikacalisma\Homework01-Form\bin\Debug\net5.0\Homework01-
 C:\Users\Emre\Desktop\patikacalisma\Homework01-Form\bin\Debug\net5.0\Homework01-Form.Views.dll
 C:\Users\Emre\Desktop\patikacalisma\Homework01-Form\bin\Debug\net5.0\Homework01-Form.Views.pdb
 C:\Users\Emre\Desktop\patikacalisma\Homework01-Form\bin\Debug\net5.0\Newtonsoft.Json.dll
-C:\Users\Emre\Desktop\patikacalisma\Homework01-Form\obj\Debug\net5.0\Homework01-Form.csproj.AssemblyReference.cache
 C:\Users\Emre\Desktop\patikacalisma\Homework01-Form\obj\Debug\net5.0\Homework01-Form.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Emre\Desktop\patikacalisma\Homework01-Form\obj\Debug\net5.0\Homework01-Form.AssemblyInfoInputs.cache
 C:\Users\Emre\Desktop\patikacalisma\Homework01-Form\obj\Debug\net5.0\Homework01-Form.AssemblyInfo.cs
@@ -76,3 +75,4 @@ C:\Users\Emre\Desktop\patikacalisma\Homework01-Form\obj\Debug\net5.0\Homework01-
 C:\Users\Emre\Desktop\patikacalisma\Homework01-Form\obj\Debug\net5.0\ref\Homework01-Form.dll
 C:\Users\Emre\Desktop\patikacalisma\Homework01-Form\obj\Debug\net5.0\Homework01-Form.pdb
 C:\Users\Emre\Desktop\patikacalisma\Homework01-Form\obj\Debug\net5.0\Homework01-Form.genruntimeconfig.cache
+C:\Users\Emre\Desktop\patikacalisma\Homework01-Form\obj\Debug\net5.0\Homework01-Form.csproj.AssemblyReference.cache

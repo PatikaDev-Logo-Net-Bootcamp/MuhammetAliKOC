@@ -11,7 +11,6 @@ C:\Users\Emre\Desktop\patikacalisma\Homework02-Middlewares-Swaggers\bin\Debug\ne
 C:\Users\Emre\Desktop\patikacalisma\Homework02-Middlewares-Swaggers\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\Emre\Desktop\patikacalisma\Homework02-Middlewares-Swaggers\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\Emre\Desktop\patikacalisma\Homework02-Middlewares-Swaggers\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
-C:\Users\Emre\Desktop\patikacalisma\Homework02-Middlewares-Swaggers\obj\Debug\net5.0\Homework02-Middlewares-Swaggers.csproj.AssemblyReference.cache
 C:\Users\Emre\Desktop\patikacalisma\Homework02-Middlewares-Swaggers\obj\Debug\net5.0\Homework02-Middlewares-Swaggers.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Emre\Desktop\patikacalisma\Homework02-Middlewares-Swaggers\obj\Debug\net5.0\Homework02-Middlewares-Swaggers.AssemblyInfoInputs.cache
 C:\Users\Emre\Desktop\patikacalisma\Homework02-Middlewares-Swaggers\obj\Debug\net5.0\Homework02-Middlewares-Swaggers.AssemblyInfo.cs
@@ -26,3 +25,4 @@ C:\Users\Emre\Desktop\patikacalisma\Homework02-Middlewares-Swaggers\obj\Debug\ne
 C:\Users\Emre\Desktop\patikacalisma\Homework02-Middlewares-Swaggers\obj\Debug\net5.0\ref\Homework02-Middlewares-Swaggers.dll
 C:\Users\Emre\Desktop\patikacalisma\Homework02-Middlewares-Swaggers\obj\Debug\net5.0\Homework02-Middlewares-Swaggers.pdb
 C:\Users\Emre\Desktop\patikacalisma\Homework02-Middlewares-Swaggers\obj\Debug\net5.0\Homework02-Middlewares-Swaggers.genruntimeconfig.cache
+C:\Users\Emre\Desktop\patikacalisma\Homework02-Middlewares-Swaggers\obj\Debug\net5.0\Homework02-Middlewares-Swaggers.csproj.AssemblyReference.cache

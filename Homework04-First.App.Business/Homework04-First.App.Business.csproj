@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <RootNamespace>Homework04_First.App.Business</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Reflection\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Homework04-First.App.DataAccess.EntityFramework.Repository\Homework04-First.App.DataAccess.EntityFramework.Repository.csproj" />
+  </ItemGroup>
+
+</Project>
