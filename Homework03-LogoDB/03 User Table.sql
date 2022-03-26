@@ -1,7 +1,7 @@
 USE [LogoDB]
 GO
 
-/****** Object:  Table [dbo].[tblUser]    Script Date: 26.03.2022 08:59:20 ******/
+/* Veritabanýnda oluþturulan User tablosunun scripti */ 
 SET ANSI_NULLS ON
 GO
 

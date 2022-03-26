@@ -1,7 +1,7 @@
 USE [LogoDB]
 GO
 
-/****** Object:  StoredProcedure [dbo].[spCompany_insert]    Script Date: 26.03.2022 09:01:57 ******/
+/* Veritabanýnda oluþturulan Company tablosuna kayýt ekleyen insert stored procerude scripti */
 SET ANSI_NULLS ON
 GO
 
