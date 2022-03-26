@@ -67,6 +67,36 @@ namespace Homework04_First.App.DataAccess.EntityFramework.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Companies");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            Address = "Kocaeli/İzmit",
+                            City = "Kocaeli",
+                            Country = "Türkiye",
+                            CreatedAt = new DateTime(2022, 3, 26, 13, 28, 21, 531, DateTimeKind.Local).AddTicks(639),
+                            CreatedBy = "System",
+                            Description = "Location bilgisi Güldür güldür Adana adliyesi skeçinden alınmıştır.",
+                            IsDeleted = false,
+                            Location = "Çarşı caddesi no:36, Camiyi geçince; dükkanın altıııı :)",
+                            Name = "Tercanlar",
+                            Phone = "0555 555 55 55"
+                        },
+                        new
+                        {
+                            Id = 2,
+                            Address = "İstanbul/Beşiktaş",
+                            City = "Kocaeli",
+                            Country = "Türkiye",
+                            CreatedAt = new DateTime(2022, 3, 26, 13, 28, 21, 532, DateTimeKind.Local).AddTicks(5773),
+                            CreatedBy = "System",
+                            Description = "Location bilgisi Güldür güldür Adana adliyesi skeçinden alınmıştır.",
+                            IsDeleted = false,
+                            Location = "Çarşı caddesi no:36, Camiyi geçince; dükkanın altıııı :) 2",
+                            Name = "Tercanlar 2",
+                            Phone = "0553 333 33 33"
+                        });
                 });
 #pragma warning restore 612, 618
         }

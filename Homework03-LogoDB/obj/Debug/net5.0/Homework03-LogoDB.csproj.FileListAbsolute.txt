@@ -9,4 +9,3 @@ C:\Users\Emre\Desktop\patikacalisma\Homework03-LogoDB\obj\Debug\net5.0\Homework0
 C:\Users\Emre\Desktop\patikacalisma\Homework03-LogoDB\obj\Debug\net5.0\Homework03-LogoDB.dll
 C:\Users\Emre\Desktop\patikacalisma\Homework03-LogoDB\obj\Debug\net5.0\ref\Homework03-LogoDB.dll
 C:\Users\Emre\Desktop\patikacalisma\Homework03-LogoDB\obj\Debug\net5.0\Homework03-LogoDB.pdb
-C:\Users\Emre\Desktop\patikacalisma\Homework03-LogoDB\obj\Debug\net5.0\Homework03-LogoDB.csproj.AssemblyReference.cache

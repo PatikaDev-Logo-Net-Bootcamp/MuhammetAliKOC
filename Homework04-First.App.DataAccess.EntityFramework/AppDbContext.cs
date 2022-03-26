@@ -8,7 +8,7 @@ namespace First.App.DataAccess.EntityFramework
     {
         public AppDbContext(DbContextOptions<AppDbContext> options) : base(options)
         {
-
+           
         }
         public DbSet<Company> Companies { get; set; }
 

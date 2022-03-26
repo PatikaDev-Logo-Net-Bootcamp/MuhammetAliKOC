@@ -27,7 +27,6 @@ C:\Users\Emre\Desktop\patikacalisma\Homework04-First.API\bin\Debug\net5.0\Micros
 C:\Users\Emre\Desktop\patikacalisma\Homework04-First.API\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 C:\Users\Emre\Desktop\patikacalisma\Homework04-First.API\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
 C:\Users\Emre\Desktop\patikacalisma\Homework04-First.API\bin\Debug\net5.0\Microsoft.OpenApi.dll
-C:\Users\Emre\Desktop\patikacalisma\Homework04-First.API\bin\Debug\net5.0\Newtonsoft.Json.dll
 C:\Users\Emre\Desktop\patikacalisma\Homework04-First.API\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\Emre\Desktop\patikacalisma\Homework04-First.API\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\Emre\Desktop\patikacalisma\Homework04-First.API\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
@@ -66,3 +65,4 @@ C:\Users\Emre\Desktop\patikacalisma\Homework04-First.API\obj\Debug\net5.0\Homewo
 C:\Users\Emre\Desktop\patikacalisma\Homework04-First.API\obj\Debug\net5.0\Homework04-First.API.genruntimeconfig.cache
 C:\Users\Emre\Desktop\patikacalisma\Homework04-First.API\bin\Debug\net5.0\Humanizer.dll
 C:\Users\Emre\Desktop\patikacalisma\Homework04-First.API\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Emre\Desktop\patikacalisma\Homework04-First.API\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
