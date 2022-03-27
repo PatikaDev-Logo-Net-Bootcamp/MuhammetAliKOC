@@ -1,6 +1,6 @@
 ﻿namespace First.App.Core.Abrastract
 {
-    public interface IEmail
+    public interface IEmailService
     {
         void Send();
     }

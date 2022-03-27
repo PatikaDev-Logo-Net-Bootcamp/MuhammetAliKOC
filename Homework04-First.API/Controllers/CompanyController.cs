@@ -3,11 +3,14 @@ using First.API.Models;
 using First.App.Business.Abstract;
 using First.App.Business.DTOs;
 using First.App.Domain.Entities;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System.Linq;
+using System.Security.Claims;
 
 namespace First.API.Controllers
 {
+    [Authorize]
     [Route("api/[controller]")]
     [ApiController]
     public class CompanyController : ControllerBase
@@ -31,7 +34,7 @@ namespace First.API.Controllers
         public IActionResult Log()
         {
             return NoContent();
-        }
+        } 
 
         /// <summary>
         /// Tüm şirket bilgilerini getirir.
@@ -53,6 +56,7 @@ namespace First.API.Controllers
             });
             return Ok(new CompanyResponse { Data = companies, Success = true });
         }
+
 
         /// <summary>
         /// Şirket ekleme işlemi yapar
@@ -83,5 +87,88 @@ namespace First.API.Controllers
                     Success = true
                 });
         }
+
+
+
+
+
+
+
+
+        /// <summary>
+        /// Update işlemi.
+        /// </summary>
+        /// <returns></returns>
+        [Route("Update/{id}")]
+        [HttpPut]
+        public IActionResult Update(int id, [FromBody]Company company)
+        {
+            string username = "";
+            if (HttpContext.User.Identity is ClaimsIdentity identity)
+            {
+                username = identity.FindFirst(ClaimTypes.Name).Value;
+            }
+
+            var result = companyService.UpdateCompany(id,company,username);
+            if (result.Success)
+            {
+                return NoContent();
+            }else
+            {
+                return BadRequest(result.Error);
+            }         
+        }
+
+        /// <summary>
+        ///Pasife alan Silme işlemi.Soft delete.
+        /// </summary>
+        /// <returns></returns>
+
+        [Route("Delete/{id}")]
+        [HttpPatch]
+        public IActionResult DeleteSoft(int id, [FromBody] Company company)
+        {
+            string username = "";
+            if (HttpContext.User.Identity is ClaimsIdentity identity)
+            {
+                username = identity.FindFirst(ClaimTypes.Name).Value;
+            }
+
+            var result = companyService.DeleteSoftCompany(id, company, username);
+            if (result.Success)
+            {
+                return NoContent();
+            }
+            else
+            {
+                return BadRequest(result.Error);
+            }
+        }
+
+        /// <summary>
+        ///Tamamen ortadan kaldıran Silme işlemi. Hard delete.
+        /// </summary>
+        /// <returns></returns>
+        [Route("Delete/{id}")]
+        [HttpDelete]
+        public IActionResult DeleteHard(int id, [FromBody] Company company)
+        {
+            string username = "";
+            if (HttpContext.User.Identity is ClaimsIdentity identity)
+            {
+                username = identity.FindFirst(ClaimTypes.Name).Value;
+            }
+
+            var result = companyService.DeleteHardCompany(id, company, username);
+            if (result.Success)
+            {
+                return NoContent();
+            }
+            else
+            {
+                return BadRequest(result.Error);
+            }
+        }
+
     }
 }

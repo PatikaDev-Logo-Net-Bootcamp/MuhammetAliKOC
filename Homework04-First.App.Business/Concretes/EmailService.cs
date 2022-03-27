@@ -3,11 +3,11 @@ using System;
 
 namespace First.App.Core.Concretes
 {
-    public class EmailServices : IEmail
+    public class EmailService : IEmailService
     {
         public void Send()
         {
-            throw new NotImplementedException();
+            //throw new NotImplementedException();
         }
     }
 }

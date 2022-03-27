@@ -4,12 +4,14 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace First.API.Controllers
 {
+
+    /*Bu kontroller tamamen test için açılmış olup kullanılmamaktadır.*/
     [ApiController]
     [Route("api/[controller]")]
     public class HomeController : Controller
     {
-        private readonly IEmail _email;
-        public HomeController(IEmail mail)
+        private readonly IEmailService _email;
+        public HomeController(IEmailService mail)
         {
             _email =  mail;
         }

@@ -19,17 +19,25 @@ namespace First.App.DataAccess.EntityFramework.Repository.Concretes
 
         public void Delete(T entity)
         {
-            T exist = unitOfWork.Context.Set<T>().Find(entity.Id);
+            /*T exist = unitOfWork.Context.Set<T>().Find(entity.Id);
             if (exist != null)
             {
                 exist.IsDeleted = true;
                 unitOfWork.Context.Entry(entity).State = EntityState.Modified;
-            }
+            }*/
+
+            //Servis katmanında silme kodları güncellendi. Artık burada hard delete yapılması bekleniyor. Soft delete için update metodu kullanılacak. 27 03 2022 Muhammet Ali KOÇ
+            unitOfWork.Context.Entry(entity).State = EntityState.Deleted;
         }
 
         public IQueryable<T> Get()
         {
             return unitOfWork.Context.Set<T>().Where(x=> !x.IsDeleted).AsQueryable();
+        }
+
+        public IQueryable<T> GetAll()
+        {
+            return unitOfWork.Context.Set<T>().AsQueryable();
         }
 
         public void Update(T entity)

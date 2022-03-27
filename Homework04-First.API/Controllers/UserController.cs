@@ -14,11 +14,14 @@ namespace First.API.Controllers
     {
         private readonly IJwtService jwtService;
 
+        
         public UserController(IJwtService jwtService)
         {
             this.jwtService=jwtService;
         }
 
+        /*Tüm kullanıcıları listeler.*/
+        [Route("get")]
         [HttpGet]
         public IActionResult Get()
         {
@@ -30,6 +33,9 @@ namespace First.API.Controllers
             };
             return Ok(users);
         }
+
+
+        /*Token buradan alınır.*/
         [AllowAnonymous]
         [HttpPost]
         [Route("authenticate")]

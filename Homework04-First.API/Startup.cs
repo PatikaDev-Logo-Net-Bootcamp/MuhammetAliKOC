@@ -1,6 +1,8 @@
 using First.API.Filters;
 using First.App.Business.Abstract;
 using First.App.Business.Concretes;
+using First.App.Core.Abrastract;
+using First.App.Core.Concretes;
 using First.App.DataAccess.EntityFramework;
 using First.App.DataAccess.EntityFramework.Repository.Abstracts;
 using First.App.DataAccess.EntityFramework.Repository.Concretes;
@@ -68,8 +70,8 @@ namespace Homework04_First.API
                     ValidateAudience = false,
                     ValidateLifetime = true,
                     ValidateIssuerSigningKey = true,
-                    ValidIssuer = Configuration["JWT:Issuer"],
-                    ValidAudience = Configuration["JWT:Audience"],
+                    //ValidIssuer = Configuration["JWT:Issuer"],
+                    //ValidAudience = Configuration["JWT:Audience"],
                     IssuerSigningKey = new SymmetricSecurityKey(Key),
                 };
             });
@@ -111,6 +113,7 @@ namespace Homework04_First.API
             services.AddTransient<IUnitOfWork, UnitOfWork>();
             services.AddTransient(typeof(IRepository<>), typeof(Repository<>));
             services.AddTransient<ICompanyService, CompanyService>();
+            services.AddTransient<IEmailService, EmailService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -127,6 +130,8 @@ namespace Homework04_First.API
 
             app.UseRouting();
 
+            app.UseAuthentication();
+    
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>

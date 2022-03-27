@@ -25,9 +25,9 @@ namespace First.App.Business.Concretes
         /// </summary>
         Dictionary<string, string> users = new Dictionary<string, string>
         {
-            { "user1","password1"},
-            { "user2","password2"},
-            { "user3","password3"},
+            { "1","1"},
+            { "2","2"},
+            { "3","3"},
         };
         public TokenDto Authenticate(UserDto user)
         {
@@ -45,7 +45,7 @@ namespace First.App.Business.Concretes
               {
              new Claim(ClaimTypes.Name, user.Name)
               }),
-                Expires = DateTime.UtcNow.AddMinutes(10),
+                Expires = DateTime.UtcNow.AddMinutes(100),
                 SigningCredentials = new SigningCredentials(new SymmetricSecurityKey(tokenKey), SecurityAlgorithms.HmacSha256Signature)
             };
             var token = tokenHandler.CreateToken(tokenDescriptor);
