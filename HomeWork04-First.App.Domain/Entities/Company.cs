@@ -1,4 +1,7 @@
-﻿namespace First.App.Domain.Entities
+﻿using HomeWork04_First.App.Domain.Entities;
+using System.Collections.Generic;
+
+namespace First.App.Domain.Entities
 {
     public class Company : BaseEntity
     {
@@ -9,5 +12,7 @@
         public string Country { get; set; }
         public string Location { get; set; }
         public string Phone { get; set; }
+
+        public List<User> User { get; set; }
     }
 }

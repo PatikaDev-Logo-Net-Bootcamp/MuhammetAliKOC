@@ -1,5 +1,6 @@
 ﻿using First.App.DataAccess.EntityFramework.Configurations;
 using First.App.Domain.Entities;
+using HomeWork04_First.App.Domain.Entities;
 using Microsoft.EntityFrameworkCore;
 
 namespace First.App.DataAccess.EntityFramework
@@ -11,11 +12,13 @@ namespace First.App.DataAccess.EntityFramework
            
         }
         public DbSet<Company> Companies { get; set; }
+        public DbSet<User> Users { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
             modelBuilder.ApplyConfiguration(new CompanyConfiguration());
+            modelBuilder.ApplyConfiguration(new UserConfiguration());
         }
 
     }

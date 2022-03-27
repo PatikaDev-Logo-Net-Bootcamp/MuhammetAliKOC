@@ -75,3 +75,4 @@ C:\Users\Emre\Desktop\patikacalisma\Homework01-Form\obj\Debug\net5.0\Homework01-
 C:\Users\Emre\Desktop\patikacalisma\Homework01-Form\obj\Debug\net5.0\ref\Homework01-Form.dll
 C:\Users\Emre\Desktop\patikacalisma\Homework01-Form\obj\Debug\net5.0\Homework01-Form.pdb
 C:\Users\Emre\Desktop\patikacalisma\Homework01-Form\obj\Debug\net5.0\Homework01-Form.genruntimeconfig.cache
+C:\Users\Emre\Desktop\patikacalisma\Homework01-Form\obj\Debug\net5.0\Homework01-Form.csproj.AssemblyReference.cache

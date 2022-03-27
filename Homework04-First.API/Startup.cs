@@ -6,6 +6,8 @@ using First.App.Core.Concretes;
 using First.App.DataAccess.EntityFramework;
 using First.App.DataAccess.EntityFramework.Repository.Abstracts;
 using First.App.DataAccess.EntityFramework.Repository.Concretes;
+using Homework04_First.App.Business.Abstract;
+using Homework04_First.App.Business.Concretes;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -109,10 +111,11 @@ namespace Homework04_First.API
 
 
             services.AddDbContext<AppDbContext>(options => options.UseSqlServer(Configuration.GetConnectionString("DBConnection")));
-            services.AddSingleton<IJwtService, JwtService>();
+            services.AddTransient<IJwtService, JwtService>();
             services.AddTransient<IUnitOfWork, UnitOfWork>();
             services.AddTransient(typeof(IRepository<>), typeof(Repository<>));
             services.AddTransient<ICompanyService, CompanyService>();
+            services.AddTransient<IUserService, UserService>();
             services.AddTransient<IEmailService, EmailService>();
         }
 
