@@ -1,22 +1,19 @@
 USE [LogoDB]
 GO
-
 /* Veritabanýnda oluþturulan user tablosuna kayýt ekleyen insert stored procerude scripti */
 SET ANSI_NULLS ON
 GO
-
 SET QUOTED_IDENTIFIER ON
 GO
-
  
-CREATE PROCEDURE [dbo].[spUser_insert]
+ALTER PROCEDURE [dbo].[spUser_insert]
 	  @Name nvarchar(100)
       ,@Surname nvarchar(50)
       ,@Mail nvarchar(250)
       ,@Password nvarchar(MAX)
       ,@Address nvarchar(1000)
       ,@Phone nvarchar(50)
-      ,@CompanyId int
+      --,@CompanyId int
       ,@DateCreated datetime2(7)
       ,@IsActive bit
 	  ,@Result bit out
@@ -42,7 +39,7 @@ BEGIN
       ,[Password]
       ,[Address]
       ,[Phone]
-      ,[CompanyId]
+      --,[CompanyId]
       ,[DateCreated]
       ,[IsActive])
 	  values(
@@ -52,13 +49,10 @@ BEGIN
       ,@Password  
       ,@Address 
       ,@Phone  
-      ,@CompanyId  
+      --,@CompanyId  
       ,@DateCreated  
       ,@IsActive  
 	  )
 
 	  END
 END
-GO
-
-

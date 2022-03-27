@@ -16,7 +16,6 @@ CREATE TABLE [dbo].[tblUser](
 	[Password] [nvarchar](max) NOT NULL,
 	[Address] [nvarchar](1000) NOT NULL,
 	[Phone] [nvarchar](50) NOT NULL,
-	[CompanyId] [int] NOT NULL,
 	[DateCreated] [datetime2](7) NOT NULL,
 	[IsActive] [bit] NOT NULL,
  CONSTRAINT [PK_User] PRIMARY KEY CLUSTERED 
@@ -44,20 +43,10 @@ GO
 ALTER TABLE [dbo].[tblUser] ADD  CONSTRAINT [DF_User_Phone]  DEFAULT ('') FOR [Phone]
 GO
 
-ALTER TABLE [dbo].[tblUser] ADD  CONSTRAINT [DF_tblUser_CompanyId]  DEFAULT ((0)) FOR [CompanyId]
-GO
-
 ALTER TABLE [dbo].[tblUser] ADD  CONSTRAINT [DF_User_DateCreated]  DEFAULT (getdate()) FOR [DateCreated]
 GO
 
 ALTER TABLE [dbo].[tblUser] ADD  CONSTRAINT [DF_User_IsActive]  DEFAULT ((1)) FOR [IsActive]
-GO
-
-ALTER TABLE [dbo].[tblUser]  WITH CHECK ADD  CONSTRAINT [FK_tblUser_tblCompany] FOREIGN KEY([CompanyId])
-REFERENCES [dbo].[tblCompany] ([Id])
-GO
-
-ALTER TABLE [dbo].[tblUser] CHECK CONSTRAINT [FK_tblUser_tblCompany]
 GO
 
 
